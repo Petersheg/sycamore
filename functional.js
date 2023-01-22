@@ -1,3 +1,9 @@
+// * Question: The sum of the squares of the first ten natural numbers is: 1^2 + 2^2 + ... + 10^2 = 385
+// The square of the sum of the first ten natural numbers is: (1 + 2 + ... + 10)^2 = 55^2 = 3025
+// Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025 − 385 = 2640.
+
+// Find the difference between the sum of the squares of the first n natural numbers and the square of the sum.
+
 function difference(n) {
     let sumOfSquares = 0;
     let squareOfSum = 0;
@@ -11,6 +17,11 @@ function difference(n) {
 // console.log(difference(4)); // 70;
 
 
+// * Question: write a function to Count Total number of zeros from 1 upto n
+// i.e when n = 10
+// countZero(n) returns 1
+// (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10) - 1 zero between 1 and 10.
+// n can be any positive natural number
 
 function countZero(n) {
     let count = 0;
@@ -27,6 +38,10 @@ function countZero(n) {
 }
 // console.log(countZero(100)); // 11
 
+
+// Question: How would you create all permutation of a string
+// i.e when string = "str"
+// permutations(string) returns [ 'str', 'srt', 'tsr', 'trs', 'rst', 'rts' ]
 
 function permutations(str) {
     let result = [];
